@@ -3,7 +3,7 @@ workflows:
     name: Android release workflow
     environment:
       android_signing:
-        - grid_build_keustore
+        - grid_build_keystore
       vars:
         PACKAGE_NAME: "com.gridibuild.sfobud"
     scripts:
