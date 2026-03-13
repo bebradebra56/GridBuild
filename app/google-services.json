@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "241173016192",
+    "project_id": "gridbuild-46d03",
+    "storage_bucket": "gridbuild-46d03.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241173016192:android:841575357b3998fdd5c065",
+        "android_client_info": {
+          "package_name": "com.gridibuild.sfobud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6-TF2m4DQs_DDQRLv8Ziupg1iXdzq2n0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

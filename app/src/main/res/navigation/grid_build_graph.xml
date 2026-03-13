@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/grid_build_graph"
+    app:startDestination="@id/gridBuildLoadFragment">
+
+    <fragment
+        android:id="@+id/gridBuildLoadFragment"
+        android:name="com.gridibuild.sfobud.lgte.presentation.ui.load.GridBuildLoadFragment"
+        android:label="GridBuildLoadFragment" >
+        <action
+            android:id="@+id/action_gridBuildLoadFragment_to_gridBuildV"
+            app:destination="@id/gridBuildV"
+            app:popUpTo="@id/grid_build_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/gridBuildV"
+        android:name="com.gridibuild.sfobud.lgte.presentation.ui.view.GridBuildV"
+        android:label="GridBuildV" />
+</navigation>
